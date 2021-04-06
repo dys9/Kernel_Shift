@@ -50,7 +50,7 @@ def kernel_search(img, ratio_y, ratio_x):
     return dst
 
 
-os.chdir("D:/이대현/릴리커버/Archive 2/dendong")
+os.chdir("D:/dendong")
 source = 'test12.bmp'
 
 img = cv2.imread(source,cv2.IMREAD_GRAYSCALE)
